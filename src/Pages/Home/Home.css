@@ -1,0 +1,106 @@
+/* src/ImageDisplay.css */
+
+/* Container styles */
+.Container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Add basic styles */
+.bgimage {
+    background-image: url('../../Assests/images/bgimage3.svg'); /* Replace with your actual background image */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 100%;
+    height: 100vh;
+    /* height: 700px; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  /* src/SearchBar.css */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 70%; /* Adjust as needed */
+  max-width: 300px; /* Add a maximum width */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+  }
+}
+
+
+  .title {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .NamesList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .NamesList h1{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 50px
+  }
+  .NamesList b{
+    color: green;
+  }
+  .NamesList p{
+    font-weight: bold;
+    color: white;
+    font-size: smaller;
+    margin-top: 1%;
+  }
+  /* Define the animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* DropdownContainer styles */
+  .DropdownContainer {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 10px;
+    background-color: antiquewhite;
+  }
+  
+  /* Dropdown styles */
+  .Dropdown {
+    font-size: 1rem;
+    padding: 8px;
+    margin-left: 30px;
+  }
+  

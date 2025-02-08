@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+.nav-main {
+    /* background-color: #dbd2d2; */
+    background-color: #003366;
+    position:absolute;
+  }
+  
+  .logo {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width: auto;
+    height: 40px;
+  }
+  
+  .navbar-brand {
+    color: #fff; /* Set the color of the brand text */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+  .nav-link {
+    /* color: #fff !important;  */
+    color: #ffffff;
+    margin-right: 15px; /* Adjust the margin as needed */
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+  
+  .nav-link:hover {
+    color: #0056b3; /* Set the color of the navigation links on hover */
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for medium screens and below */
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+  
+    .nav-link {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
